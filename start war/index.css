@@ -1,0 +1,44 @@
+.wrapper{
+  position:absolute;
+  text-align:center;
+  transform: perspective(300px) rotateX(25deg) ;
+  /* 摄像机z距离300px 目标物体x轴向下旋转25度 两者必须 */
+  width:18em;
+  height:50em;
+  margin-left:-9em;
+  font-size:350%;
+  left:50%;
+  bottom: 0;
+  transform-origin:50% 100%;
+  /* 摄像机的 x 与 y 轴的位置。 */
+  overflow: hidden
+}
+.text{
+  position:absolute;
+  animation: scroll 100s linear 4s infinite;
+  top:100%;
+  color: #fff;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.back{
+  height: 100vh;
+}
+
+@keyframes scroll {
+  0% {top:100%}
+  100% {top:-200%}
+}
+
+.gra{
+  position: absolute;
+  height: 30em;
+  width: 100%;
+  background: linear-gradient(black 0, transparent 30em);
+  z-index: 2;
+}

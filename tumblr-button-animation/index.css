@@ -1,0 +1,42 @@
+.button {
+  display: inline-block;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  transition: all .6s ease
+}
+
+.button-1 {
+  background-color: #F7DD38;
+}
+
+.button-2 {
+  background-color: #f2992e;
+}
+
+.button-3 {
+  background-color: #ffffff;
+}
+
+.button-4 {
+  background-color: #9ba3ae
+}
+
+.button-5 {
+  background-color: #ac7ebe;
+}
+
+.button-6 {
+  background-color: #4aa8d8;
+}
+
+.button-7 {
+  background-color: #56bc8a;
+}
+
+.button-8 {
+  background-color: #d95e40;
+}

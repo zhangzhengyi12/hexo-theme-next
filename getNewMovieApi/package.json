@@ -1,0 +1,21 @@
+{
+  "name": "getnewmovieapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "getData": "node main/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "lowb": "^1.0.1",
+    "lowdb": "^1.0.0",
+    "superagent": "^3.8.2",
+    "superagent-charset": "^0.1.1"
+  }
+}
