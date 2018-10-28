@@ -597,7 +597,7 @@ algolia_search:
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
   enable: true
-  trigger: auto
+  content: false
 
 
 # ---------------------------------------------------------------
